@@ -1,32 +1,20 @@
 ---
-
+import "bootstrap/dist/css/bootstrap.min.css";
 ---
 
 <header>
-  <h1>Tienda OnLine</h1> 
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-    </nav>
+  <div class="container">
+    <header class="d-flex justify-content-center py-3">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Inicio</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Servicios</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+        
+      </ul>
+    </header>
+  </div>
+
 </header>
 
 
-<style>
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-  }
-
-  nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 1rem;
-  }
-  nav a:hover {
-    text-decoration: underline;
-  }
-</style>
